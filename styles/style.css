@@ -153,4 +153,35 @@ footer {
 }
 footer i {
   color: red;
+}
+
+#mensagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#mensagem h3 {
+  font-size: 1.2rem;
+  color: #74959A;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#mensagem h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+#mensagem p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #495371;
+  line-height: 1.25rem;
+}
+#mensagem .mensagem_texto {
+  width: 500px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
